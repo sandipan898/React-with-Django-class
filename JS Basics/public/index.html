@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .green-btn {
+            background-color: green;
+            color: white;
+        }
+
+        .disabled-btn {
+            cursor: no-drop;
+        }
+
+        .round-btn{
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="green-btn round-btn disabled-btn" onclick="handleDecrement()" disabled>-</button>
+
+    <input id="counter-input" type="number" value="0" />
+
+    <button class="green-btn round-btn" onclick="handleIncrement()">+</button>
+
+</body>
+<script src="./index.js"></script>
+</html>
