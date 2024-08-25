@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration Form</div>
+        <div id="error-msg" class="error"></div>
+        <div id="success-msg" class="success"></div>
+        
+        <form id="registration-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-field">
+                <input type="text" placeholder="First Name" id="first-name" name="first-name" />
+            </div>
+
+            <div class="form-field">
+                <input type="text" placeholder="Last Name" id="last-name" name="last-name" />
+            </div>
+
+            <div class="form-field">
+                <input type="email" placeholder="Email" id="email" name="email" />
+            </div>
+
+            <div class="form-field">
+                <input type="text" placeholder="Phone No" id="phone" name="phone" />
+            </div>
+
+            <input type="submit" value="Register" class="btn" id="btn-registration" />
+        </form>
+    </div>
+</body>
+
+<script src="./scripts.js"></script>
+</html>

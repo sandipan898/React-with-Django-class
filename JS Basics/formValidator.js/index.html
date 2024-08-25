@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="container card">
+        <div class="title">Login Form</div>
+        <form class="form" id="loginForm" onsubmit="handleFormSubmit(event)">
+            <div id="errors" class="error"></div>
+            <div id="success" class="success"></div>
+            <div class="form_field">
+                <input class="input" id="fname" name="fname" placeholder="First Name">
+            </div>
+
+            <div class="form_field">
+                <input class="input" id="lname" name="lname" placeholder="Last Name">
+            </div>
+            
+            <div class="form_field">
+                <input class="input" id="email" name="email" placeholder="Email Address">
+            </div>
+            
+            <div class="form_field">
+                <input class="input" id="phone" name="phone" placeholder="Phone Number">
+            </div>
+
+            <input type="submit" value="Login" id="submitBtn" class="button">
+        </form>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>

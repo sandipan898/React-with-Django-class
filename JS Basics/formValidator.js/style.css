@@ -1,0 +1,46 @@
+.container {
+    width: 90%;
+    text-align: center;
+    margin: 5rem;
+}
+
+.title {
+    text-align: center;
+    margin: 2rem;
+}
+
+.card {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    border: 5px solid blueviolet;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.form_field {
+    margin: 1rem;
+}
+
+.input {
+    padding: 5px;
+    width: 15rem;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: #029c42;
+}
