@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "sandipan.das898@gmail.com",
+      "fname": "Sandipan",
+      "lname": "Das",
+      "email": "sandipan.das898@gmail.com",
+      "phone": "213243565765",
+      "pwd": "pass123"
+    },
+    {
+      "id": "mail@mail.com",
+      "fname": "Sandipan",
+      "lname": "Das",
+      "email": "mail@mail.com",
+      "phone": "213243565765",
+      "pwd": "pass123"
+    },
+    {
+      "id": "sandipan.das@gmail.com",
+      "fname": "Sandipan",
+      "lname": "Das",
+      "email": "sandipan.das@gmail.com",
+      "phone": "213243565765",
+      "pwd": "pass123"
+    }
+  ]
+}

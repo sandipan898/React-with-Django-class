@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <div class="container card">
+            <h1 class="title">User Management System</h1>
+            <form class="form" id="loginForm" onsubmit="handleFormSubmit(event)">
+                <div id="errors" class="error"></div>
+                <div id="success" class="success"></div>
+
+                <div class="form_field">
+                    <input class="input" id="fname" name="fname" placeholder="First Name">
+                </div>
+
+                <div class="form_field">
+                    <input class="input" id="lname" name="lname" placeholder="Last Name">
+                </div>
+                
+                <div class="form_field">
+                    <input class="input" id="email" name="email" placeholder="Email Address">
+                </div>
+                
+                <div class="form_field">
+                    <input class="input" id="phone" name="phone" placeholder="Phone Number">
+                </div>
+
+                <div class="form_field">
+                    <input class="input" id="pwd" name="pwd" placeholder="New Password">
+                </div>
+
+                <input type="submit" value="Register" id="registerBtn" class="button">
+                <input type="submit" value="Login" id="loginBtn" class="button">
+            </form>
+        </div>
+    </main>
+</body>
+<script src="./scripts.js"></script>
+</html>
